@@ -63,7 +63,7 @@
         </button>
 
         <p v-if="error" class="text-red-500 mt-4">{{ error }}</p>
-        <p v-if="response" class="text-green-600 mt-4">✅ Evaluation complete. Check your results!</p>
+        <p v-if="response" class="text-green-600 mt-4">✅ Evaluation complete. Check results in your Email!</p>
       </form>
     </div>
   </div>
@@ -79,8 +79,12 @@ export default {
       options: {
             'Muscle': 'muscle',
             'MAFFT': 'mafft',
-            'DIALIGN': 'dalign',
-            'T-Coffee': 't_coffee'
+            //'DIALIGN': 'dalign',
+            'T-Coffee': 't_coffee',
+            'Probcons':'probcons',
+            'Kalign':'kalign',
+            'Clustalo':'clustalo',
+            'Prank': 'prank'
           },
       error: '',
       response: null,
