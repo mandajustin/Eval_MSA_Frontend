@@ -153,7 +153,7 @@
             </button>
 
             <p v-if="error" class="text-red-500 mt-4">{{ error }}</p>
-            <p v-if="response" class="text-green-600 mt-4">✅ Evaluation complete. Check results in your Email!</p>
+            <p v-if="response" class="text-green-600 mt-4">✅ Data successfully submitted and queued for processing. Check results in your Email!</p>
           </form>
         </div>
       </div>
